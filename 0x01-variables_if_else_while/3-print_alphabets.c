@@ -1,12 +1,20 @@
 #include <stdlib.h>
+#include <stdio.h>
 
-void main(void)
+int main(void)
 {
-        int n;
+  char a;
+  char A;
+  for (a = 'a'; a <= 'z'; a++)
+    {
+      putchar(a);
+	}
+  putchar('\n');
+  for (A = 'A'; A<= 'Z'; A++)
+    {
+      putchar(A);
+    }
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        printf("hello")
-        /* your code goes there */
+      return(0);
 }
 
