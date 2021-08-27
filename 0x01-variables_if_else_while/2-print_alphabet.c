@@ -1,6 +1,13 @@
 #include <time.h>
+#include <stdlib.h>
 #include <stdio.h>
-void main(void)
+int main(void)
 {
- putchar(a..z);
+  char a;
+  
+  for ( a = 'a'; a <= 'z'; a++)
+    {
+      putchar(a);
+    }
+  return(0);
 }
